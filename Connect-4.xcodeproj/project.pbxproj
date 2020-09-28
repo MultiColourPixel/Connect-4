@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		E0A77406251E6F13002D493E /* GameConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A773FF251E6F13002D493E /* GameConfigurationTests.swift */; };
 		E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77400251E6F13002D493E /* BitboardTests.swift */; };
+		E0A77408251E6F13002D493E /* Connect4GameModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77401251E6F13002D493E /* Connect4GameModelTests.swift */; };
 		E0A77409251E6F13002D493E /* UIColorExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77403251E6F13002D493E /* UIColorExtensionsTests.swift */; };
+		E0A77419251E6F34002D493E /* Connect4GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77410251E6F34002D493E /* Connect4GameModel.swift */; };
 		E0A7741A251E6F34002D493E /* GameConfigurationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77411251E6F34002D493E /* GameConfigurationService.swift */; };
 		E0A7741B251E6F34002D493E /* GameConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77412251E6F34002D493E /* GameConfiguration.swift */; };
 		E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77413251E6F34002D493E /* Bitboard.swift */; };
@@ -36,7 +38,9 @@
 /* Begin PBXFileReference section */
 		E0A773FF251E6F13002D493E /* GameConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfigurationTests.swift; sourceTree = "<group>"; };
 		E0A77400251E6F13002D493E /* BitboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitboardTests.swift; sourceTree = "<group>"; };
+		E0A77401251E6F13002D493E /* Connect4GameModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect4GameModelTests.swift; sourceTree = "<group>"; };
 		E0A77403251E6F13002D493E /* UIColorExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensionsTests.swift; sourceTree = "<group>"; };
+		E0A77410251E6F34002D493E /* Connect4GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connect4GameModel.swift; sourceTree = "<group>"; };
 		E0A77411251E6F34002D493E /* GameConfigurationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfigurationService.swift; sourceTree = "<group>"; };
 		E0A77412251E6F34002D493E /* GameConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfiguration.swift; sourceTree = "<group>"; };
 		E0A77413251E6F34002D493E /* Bitboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitboard.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A77400251E6F13002D493E /* BitboardTests.swift */,
+				E0A77401251E6F13002D493E /* Connect4GameModelTests.swift */,
 				E0A773FF251E6F13002D493E /* GameConfigurationTests.swift */,
 				E0A77429251E766A002D493E /* GameConfigurationServiceTests.swift */,
 			);
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				E0A77413251E6F34002D493E /* Bitboard.swift */,
+				E0A77410251E6F34002D493E /* Connect4GameModel.swift */,
 				E0A77412251E6F34002D493E /* GameConfiguration.swift */,
 				E0A77411251E6F34002D493E /* GameConfigurationService.swift */,
 			);
@@ -293,6 +299,7 @@
 				E0A7741F251E6F34002D493E /* UIColorExtensions.swift in Sources */,
 				E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */,
 				E0A7741A251E6F34002D493E /* GameConfigurationService.swift in Sources */,
+				E0A77419251E6F34002D493E /* Connect4GameModel.swift in Sources */,
 				E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */,
 				E0A7741B251E6F34002D493E /* GameConfiguration.swift in Sources */,
 				E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */,
@@ -303,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A77408251E6F13002D493E /* Connect4GameModelTests.swift in Sources */,
 				E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */,
 				E0A77406251E6F13002D493E /* GameConfigurationTests.swift in Sources */,
 				E0A7742A251E766A002D493E /* GameConfigurationServiceTests.swift in Sources */,
