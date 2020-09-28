@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77400251E6F13002D493E /* BitboardTests.swift */; };
+		E0A77409251E6F13002D493E /* UIColorExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77403251E6F13002D493E /* UIColorExtensionsTests.swift */; };
 		E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77413251E6F34002D493E /* Bitboard.swift */; };
+		E0A7741F251E6F34002D493E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77418251E6F34002D493E /* UIColorExtensions.swift */; };
 		E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A725189202008CA5CD /* AppDelegate.swift */; };
 		E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A925189202008CA5CD /* SceneDelegate.swift */; };
 		E0C528AF25189202008CA5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C528AD25189202008CA5CD /* Main.storyboard */; };
@@ -28,7 +30,9 @@
 
 /* Begin PBXFileReference section */
 		E0A77400251E6F13002D493E /* BitboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitboardTests.swift; sourceTree = "<group>"; };
+		E0A77403251E6F13002D493E /* UIColorExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensionsTests.swift; sourceTree = "<group>"; };
 		E0A77413251E6F34002D493E /* Bitboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitboard.swift; sourceTree = "<group>"; };
+		E0A77418251E6F34002D493E /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		E0C528A425189202008CA5CD /* Connect-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C528A725189202008CA5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C528A925189202008CA5CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,12 +70,28 @@
 			path = "Model Tests";
 			sourceTree = "<group>";
 		};
+		E0A77402251E6F13002D493E /* Extension Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A77403251E6F13002D493E /* UIColorExtensionsTests.swift */,
+			);
+			path = "Extension Tests";
+			sourceTree = "<group>";
+		};
 		E0A7740F251E6F34002D493E /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				E0A77413251E6F34002D493E /* Bitboard.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E0A77417251E6F34002D493E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E0A77418251E6F34002D493E /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E0C5289B25189202008CA5CD = {
@@ -96,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				E0C528E1251895D8008CA5CD /* App Scene Delegates */,
+				E0A77417251E6F34002D493E /* Extensions */,
 				E0A7740F251E6F34002D493E /* Models */,
 				E0C528E02518957E008CA5CD /* Resources */,
 				E0C528E2251896D5008CA5CD /* Plists */,
@@ -106,6 +127,7 @@
 		E0C528BD25189203008CA5CD /* Connect-4Tests */ = {
 			isa = PBXGroup;
 			children = (
+				E0A77402251E6F13002D493E /* Extension Tests */,
 				E0A773FE251E6F13002D493E /* Model Tests */,
 				E0EC1AA2251C8D2C0028A465 /* Plists */,
 			);
@@ -248,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A7741F251E6F34002D493E /* UIColorExtensions.swift in Sources */,
 				E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */,
 				E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */,
 				E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */,
@@ -259,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */,
+				E0A77409251E6F13002D493E /* UIColorExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
