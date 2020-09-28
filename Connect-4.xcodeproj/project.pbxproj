@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77400251E6F13002D493E /* BitboardTests.swift */; };
+		E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77413251E6F34002D493E /* Bitboard.swift */; };
 		E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A725189202008CA5CD /* AppDelegate.swift */; };
 		E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A925189202008CA5CD /* SceneDelegate.swift */; };
 		E0C528AF25189202008CA5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C528AD25189202008CA5CD /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0A77400251E6F13002D493E /* BitboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitboardTests.swift; sourceTree = "<group>"; };
+		E0A77413251E6F34002D493E /* Bitboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bitboard.swift; sourceTree = "<group>"; };
 		E0C528A425189202008CA5CD /* Connect-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C528A725189202008CA5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C528A925189202008CA5CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0A773FE251E6F13002D493E /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E0A77400251E6F13002D493E /* BitboardTests.swift */,
+			);
+			path = "Model Tests";
+			sourceTree = "<group>";
+		};
+		E0A7740F251E6F34002D493E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0A77413251E6F34002D493E /* Bitboard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E0C5289B25189202008CA5CD = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				E0C528E1251895D8008CA5CD /* App Scene Delegates */,
+				E0A7740F251E6F34002D493E /* Models */,
 				E0C528E02518957E008CA5CD /* Resources */,
 				E0C528E2251896D5008CA5CD /* Plists */,
 			);
@@ -85,6 +106,7 @@
 		E0C528BD25189203008CA5CD /* Connect-4Tests */ = {
 			isa = PBXGroup;
 			children = (
+				E0A773FE251E6F13002D493E /* Model Tests */,
 				E0EC1AA2251C8D2C0028A465 /* Plists */,
 			);
 			path = "Connect-4Tests";
@@ -226,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */,
 				E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */,
 				E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */,
 			);
@@ -235,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A77407251E6F13002D493E /* BitboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
