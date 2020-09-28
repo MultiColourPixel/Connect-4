@@ -13,6 +13,7 @@
 		E0A7741B251E6F34002D493E /* GameConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77412251E6F34002D493E /* GameConfiguration.swift */; };
 		E0A7741C251E6F34002D493E /* Bitboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77413251E6F34002D493E /* Bitboard.swift */; };
 		E0A7741F251E6F34002D493E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A77418251E6F34002D493E /* UIColorExtensions.swift */; };
+		E0A77426251E7656002D493E /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E0A77425251E7656002D493E /* OHHTTPStubsSwift */; };
 		E0C528A825189202008CA5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A725189202008CA5CD /* AppDelegate.swift */; };
 		E0C528AA25189202008CA5CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C528A925189202008CA5CD /* SceneDelegate.swift */; };
 		E0C528AF25189202008CA5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C528AD25189202008CA5CD /* Main.storyboard */; };
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A77426251E7656002D493E /* OHHTTPStubsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +211,9 @@
 				E0C528BC25189203008CA5CD /* PBXTargetDependency */,
 			);
 			name = "Connect-4Tests";
+			packageProductDependencies = (
+				E0A77425251E7656002D493E /* OHHTTPStubsSwift */,
+			);
 			productName = "Connect-4Tests";
 			productReference = E0C528BA25189203008CA5CD /* Connect-4Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -241,6 +246,9 @@
 				Base,
 			);
 			mainGroup = E0C5289B25189202008CA5CD;
+			packageReferences = (
+				E0A77424251E7656002D493E /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+			);
 			productRefGroup = E0C528A525189202008CA5CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -549,6 +557,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0A77424251E7656002D493E /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0A77425251E7656002D493E /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0A77424251E7656002D493E /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0C5289C25189202008CA5CD /* Project object */;
 }
