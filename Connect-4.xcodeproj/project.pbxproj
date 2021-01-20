@@ -52,6 +52,7 @@
 		E0A77416251E6F34002D493E /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		E0A77418251E6F34002D493E /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		E0A77429251E766A002D493E /* GameConfigurationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfigurationServiceTests.swift; sourceTree = "<group>"; };
+		E0C1E02E25B82BA80022D3D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0C528A425189202008CA5CD /* Connect-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Connect-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C528A725189202008CA5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C528A925189202008CA5CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		E0C5289B25189202008CA5CD = {
 			isa = PBXGroup;
 			children = (
+				E0C1E02E25B82BA80022D3D1 /* README.md */,
 				E0C528A625189202008CA5CD /* Connect-4 */,
 				E0C528BD25189203008CA5CD /* Connect-4Tests */,
 				E0C528A525189202008CA5CD /* Products */,
