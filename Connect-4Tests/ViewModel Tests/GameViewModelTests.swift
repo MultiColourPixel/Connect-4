@@ -43,6 +43,8 @@ final class GameViewModelTests: XCTestCase {
         let loadingExpectation = expectation(description: #function)
 
         viewModel.$isLoading
+            .dropFirst()
+            .first()
             .sink { value in
                 loadingExpectation.fulfill()
 
@@ -58,9 +60,9 @@ final class GameViewModelTests: XCTestCase {
     func testIsPlayableIsFalse_whenGameIsBeingRestarted() {
         let playableExpectation = expectation(description: #function)
 
-
         viewModel.$isPlayable
             .dropFirst()
+            .first()
             .sink { value in
                 playableExpectation.fulfill()
 
@@ -77,6 +79,8 @@ final class GameViewModelTests: XCTestCase {
         let playableExpectation = expectation(description: #function)
 
         viewModel.$isPlayable
+            .dropFirst(2)
+            .first()
             .sink { value in
                 playableExpectation.fulfill()
 
@@ -94,6 +98,7 @@ final class GameViewModelTests: XCTestCase {
 
         viewModel.$isPlayable
             .dropFirst(2)
+            .first()
             .sink { value in
                 playableExpectation.fulfill()
 
